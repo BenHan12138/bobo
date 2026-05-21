@@ -15,6 +15,9 @@ public class GreetingService {
         if (user == null) {
             return "Goodbye, stranger.";
         }
-        return "Goodbye, " + user.name() + ". See you soon!";
+        if (user.isAdult()) {
+            return "Farewell, " + user.name() + ". It was a pleasure!";
+        }
+        return "See you later, " + user.name() + ". Keep learning!";
     }
 }

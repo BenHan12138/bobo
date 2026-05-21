@@ -34,7 +34,7 @@ class GreetingServiceTest {
     void testFarewell() {
         User user = new User("Charlie", 30);
         String result = service.farewell(user);
-        assertEquals("Goodbye, Charlie. See you soon!", result);
+        assertEquals("Farewell, Charlie. It was a pleasure!", result);
     }
 
     @Test
