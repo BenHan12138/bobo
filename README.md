@@ -1,4 +1,4 @@
-# Bobo Demo App
+# Bobo Project
 
 A simple Java console application that greets users.
 
