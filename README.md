@@ -21,7 +21,7 @@ java -jar target/bobo-app-1.0-SNAPSHOT.jar Alice 25
 
 Output:
 ```
-Hello, Alice. Welcome aboard!
+你好世界, Alice!
 Goodbye, Alice. See you soon!
 ```
 

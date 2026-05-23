@@ -13,14 +13,14 @@ class GreetingServiceTest {
     void testAdultGreeting() {
         User user = new User("Alice", 25);
         String result = service.greetUser(user);
-        assertTrue(result.contains("Welcome aboard"));
+        assertEquals("你好世界, Alice!", result);
     }
 
     @Test
     void testMinorGreeting() {
         User user = new User("Bob", 15);
         String result = service.greetUser(user);
-        assertTrue(result.contains("still young"));
+        assertEquals("你好世界, Bob!", result);
     }
 
     @Test

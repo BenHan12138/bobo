@@ -8,8 +8,8 @@ public record User(String name, int age) {
 
     public String greet() {
         if (isAdult()) {
-            return "Hello, " + name + ". Welcome aboard!";
+            return "你好世界, " + name + "!";
         }
-        return "Hi " + name + "! You're still young.";
+        return "你好世界, " + name + "!";
     }
 }
